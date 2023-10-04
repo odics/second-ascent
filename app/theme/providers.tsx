@@ -1,6 +1,12 @@
 "use client";
 
 import "@fontsource/permanent-marker";
+import "@fontsource/roboto/100.css";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+import "@fontsource/roboto/900.css";
 
 import { CacheProvider } from "@emotion/react";
 import { ChakraProvider } from "@chakra-ui/react";
@@ -67,6 +73,11 @@ export function Providers({ children }: ProviderProps) {
             lineHeight: "5rem",
             textColor: "#354463",
           },
+          heroByline: {
+            fontFamily: `'Roboto', sans-serif`,
+            textColor: "#354463",
+            lineHeight: "1.7rem",
+          },
         },
       },
       Button: {
@@ -76,10 +87,11 @@ export function Providers({ children }: ProviderProps) {
           fontWeight: "700",
         },
         variants: {
-          primary: {
-            bg: "btn-primary-bg",
+          hero: {
+            bg: "#354463",
             textColor: "white",
             fontSize: "md",
+            fontWeight: "normal",
             borderRadius: "3px",
           },
           secondary: {
