@@ -82,9 +82,8 @@ export function Providers({ children }: ProviderProps) {
       },
       Button: {
         baseStyle: {
-          fontFamily: `'Lato', sans-serif`,
+          fontFamily: `'Roboto', sans-serif`,
           letterSpacing: ".15em",
-          fontWeight: "700",
         },
         variants: {
           hero: {
@@ -93,13 +92,15 @@ export function Providers({ children }: ProviderProps) {
             fontSize: "md",
             fontWeight: "normal",
             borderRadius: "3px",
+            py: "1.5rem",
+            px: "2rem",
           },
-          secondary: {
-            bg: "transparent",
-            textColor: "btn-secondary-text",
+          gearNav: {
+            bg: "#C1F7D5",
+            textColor: "#354463",
             fontSize: "md",
             borderWidth: "1px",
-            borderColor: "btn-secondary-border",
+            borderColor: "white",
             borderRadius: "3px",
           },
           destructive: {
