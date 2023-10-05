@@ -33,9 +33,14 @@ const Hero = () => {
             heights.
           </Text>
         </Flex>
-        <Button variant="hero" alignSelf="flex-start">
-          Get involved
-        </Button>
+        <Flex gap="2rem">
+          <Button variant="hero" alignSelf="flex-start">
+            Get involved
+          </Button>
+          <Button variant="hero" alignSelf="flex-start">
+            Browse our stuff
+          </Button>
+        </Flex>
       </Flex>
     </Flex>
   );
