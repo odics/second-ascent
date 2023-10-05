@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Button } from "@chakra-ui/react";
+import { Flex, Button, Text, Badge } from "@chakra-ui/react";
 import { AiFillInstagram, AiFillFacebook, AiTwotoneMail } from "react-icons/ai";
 
 const Gear = () => {
@@ -7,22 +7,28 @@ const Gear = () => {
     <Flex
       background="#354463"
       w="1450px"
-      h="70px"
       className="gear"
       align="center"
       px="6rem"
-      justify="space-between"
+      py="1.5rem"
+      justify="center"
     >
-      <Flex>Looking for something?</Flex>
-      <Flex gap="3rem">
-        <Button variant="gearNav">Shoes</Button>
-        <Button variant="gearNav">Harnesses</Button>
-        <Button variant="gearNav">Chalkbags</Button>
-      </Flex>
-      <Flex>
-        <AiFillInstagram size={40} />
-        <AiFillFacebook size={40} />
-        <AiTwotoneMail size={40} />
+      <Flex gap="9rem">
+        <Button variant="gearNav" w="135px">
+          Shoes
+        </Button>
+        <Button variant="gearNav" w="135px" className="badgedBtn">
+          Harnesses
+          <Badge className="badge" variant="gearBadge">
+            Coming soon
+          </Badge>
+        </Button>
+        <Button variant="gearNav" w="135px">
+          Chalkbags
+          <Badge className="badge" variant="gearBadge">
+            Coming soon
+          </Badge>
+        </Button>
       </Flex>
     </Flex>
   );

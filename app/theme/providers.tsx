@@ -65,6 +65,14 @@ export function Providers({ children }: ProviderProps) {
           },
         },
       },
+      Badge: {
+        variants: {
+          gearBadge: {
+            textColor: "#FC6A00",
+            fontFamily: `'Permanent Marker', sans-serif`,
+          },
+        },
+      },
       Text: {
         variants: {
           hero: {
@@ -77,6 +85,21 @@ export function Providers({ children }: ProviderProps) {
             fontFamily: `'Roboto', sans-serif`,
             textColor: "#354463",
             lineHeight: "1.7rem",
+          },
+          gear: {
+            fontFamily: `'Roboto', sans-serif`,
+            padding: "0",
+          },
+        },
+      },
+      Link: {
+        variants: {
+          navLink: {
+            bg: "white",
+            textColor: "#354463",
+            fontSize: "md",
+            fontWeight: "normal",
+            borderColor: "#354463",
           },
         },
       },
@@ -110,9 +133,6 @@ export function Providers({ children }: ProviderProps) {
             bg: "#C1F7D5",
             textColor: "#354463",
             fontSize: "md",
-            borderWidth: "1px",
-            border: "1px",
-            borderColor: "white",
             borderRadius: "3px",
           },
         },

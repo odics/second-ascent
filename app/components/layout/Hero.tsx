@@ -21,14 +21,14 @@ const Hero = () => {
           <Text variant="hero">
             Donate{" "}
             <Text as="span" textColor="white">
-              climbing shoes
+              climbing gear
             </Text>
           </Text>
         </Flex>
         <Flex w="50%">
           <Text variant="heroByline" fontSize="lg">
             Make a sustainable impact on both young climbers and the environment
-            by contributing your pre-loved climbing shoes. Help us reduce waste
+            by contributing your pre-loved climbing gear. Help us reduce waste
             and give underprivileged children the opportunity to scale new
             heights.
           </Text>
@@ -36,9 +36,6 @@ const Hero = () => {
         <Flex gap="2rem">
           <Button variant="hero" alignSelf="flex-start">
             Get involved
-          </Button>
-          <Button variant="hero" alignSelf="flex-start">
-            Browse our stuff
           </Button>
         </Flex>
       </Flex>

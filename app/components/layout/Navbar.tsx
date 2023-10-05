@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Text, Button } from "@chakra-ui/react";
+import { Flex, Text, Button, Link } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
@@ -8,10 +8,16 @@ const Navbar = () => {
         <Text fontSize="2xl" textColor="#354463">
           SECONDASCENT
         </Text>
-        <Flex gap="1rem">
-          <Button variant="navLink">About us</Button>
-          <Button variant="navLink">Contact</Button>
-          <Button variant="navLink">FAQ</Button>
+        <Flex gap="2rem">
+          <Link href="#" variant="navLink">
+            About us
+          </Link>
+          <Link href="#" variant="navLink">
+            Contact
+          </Link>
+          <Link href="#" variant="navLink">
+            FAQ
+          </Link>
         </Flex>
       </Flex>
     </Flex>
