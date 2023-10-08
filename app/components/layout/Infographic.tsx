@@ -41,7 +41,7 @@ const Infographic = () => {
       >
         <BiSolidDonateHeart size={120} />
         <Text fontSize="3xl" fontWeight="bold">
-          Donate
+          Empower
         </Text>
         <Text textAlign="center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum labore

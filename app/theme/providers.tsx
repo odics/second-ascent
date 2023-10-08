@@ -130,10 +130,11 @@ export function Providers({ children }: ProviderProps) {
             px: "1.5rem",
           },
           gearNav: {
-            bg: "#C1F7D5",
+            bg: "white",
             textColor: "#354463",
             fontSize: "md",
             borderRadius: "3px",
+            px: "0",
           },
         },
       },

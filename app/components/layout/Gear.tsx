@@ -1,6 +1,7 @@
 import React from "react";
 import { Flex, Button, Text, Badge } from "@chakra-ui/react";
 import { AiFillInstagram, AiFillFacebook, AiTwotoneMail } from "react-icons/ai";
+import { GiSonicShoes } from "react-icons/Gi";
 
 const Gear = () => {
   return (
@@ -14,21 +15,45 @@ const Gear = () => {
       justify="center"
     >
       <Flex gap="9rem">
-        <Button variant="gearNav" w="135px">
+        <Flex
+          align="center"
+          border="1px"
+          borderColor="white"
+          borderRadius="5px"
+          px="1rem"
+          gap="1rem"
+        >
+          <GiSonicShoes size={60} />
+          {/* <Button variant="gearNav" w="135px" h="30"> */}
           Shoes
-        </Button>
-        <Button variant="gearNav" w="135px" className="badgedBtn">
+          {/* </Button> */}
+        </Flex>
+        <Flex
+          align="center"
+          border="1px"
+          borderColor="white"
+          px="1rem"
+          gap="1rem"
+          borderRadius="5px"
+        >
+          <GiSonicShoes size={60} />
+          {/* <Button variant="gearNav" w="135px" h="30"> */}
           Harnesses
-          <Badge className="badge" variant="gearBadge">
-            Coming soon
-          </Badge>
-        </Button>
-        <Button variant="gearNav" w="135px">
+          {/* </Button> */}
+        </Flex>
+        <Flex
+          align="center"
+          border="1px"
+          borderColor="white"
+          px="1rem"
+          gap="1rem"
+          borderRadius="5px"
+        >
+          <GiSonicShoes size={60} />
+          {/* <Button variant="gearNav" w="135px" h="30"> */}
           Chalkbags
-          <Badge className="badge" variant="gearBadge">
-            Coming soon
-          </Badge>
-        </Button>
+          {/* </Button> */}
+        </Flex>
       </Flex>
     </Flex>
   );
