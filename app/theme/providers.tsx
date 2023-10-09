@@ -109,6 +109,15 @@ export function Providers({ children }: ProviderProps) {
           letterSpacing: ".15em",
         },
         variants: {
+          primary: {
+            bg: "#354463",
+            textColor: "white",
+            fontSize: "md",
+            fontWeight: "normal",
+            borderRadius: "3px",
+            py: "1rem",
+            px: "1.5rem",
+          },
           hero: {
             bg: "#354463",
             textColor: "white",
