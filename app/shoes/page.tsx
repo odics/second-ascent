@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Grid, GridItem, Select } from "@chakra-ui/react";
+import { Flex, Grid, GridItem, Select, Text } from "@chakra-ui/react";
 import Shoes from "../components/Shoes";
 import { AiOutlineSearch } from "react-icons/ai";
 
@@ -60,7 +60,9 @@ const page = () => {
         align="center"
         gap="1rem"
       >
-        <AiOutlineSearch size={30} />
+        <Flex w="100%">
+          <Text fontWeight="semibold">Climbing shoes</Text>
+        </Flex>
         <Select
           size="sm"
           width="200px"
@@ -68,6 +70,7 @@ const page = () => {
           borderColor="#354463"
           color="#354463"
         >
+          <option value="option1">All</option>
           <option value="option1">Male</option>
           <option value="option2">Female</option>
           <option value="option2">Unisex</option>

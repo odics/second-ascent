@@ -112,8 +112,8 @@ export function Providers({ children }: ProviderProps) {
           primary: {
             bg: "#354463",
             textColor: "white",
-            fontSize: "md",
-            fontWeight: "normal",
+            fontSize: "sm",
+            fontWeight: "semibold",
             borderRadius: "3px",
             py: "1rem",
             px: "1.5rem",
